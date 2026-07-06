@@ -270,8 +270,7 @@ const EXAMPLES = [
   { label: "All properties",
     query: `SELECT DISTINCT ?property\nWHERE { ?s ?property ?o }\nORDER BY ?property` },
     { label: "Total SoftwareApplication entries", query: `PREFIX schema: <http://schema.org/>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nSELECT (COUNT(?s) as ?count)\nWHERE { ?s rdf:type schema:SoftwareApplication . }` },
-    { label: "SoftwareApplication & bio.tools IDs", query: `PREFIX biotools: <https://bio.tools/>\nPREFIX schema: <http://schema.org/>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nSELECT ?application ?biotools_ID\nWHERE { ?application schema:identifier ?biotools_ID . }\nORDER BY ?biotools_ID` },
-    { label: "Entries per bio.tools ID", query: `PREFIX biotools: <https://bio.tools/>\nPREFIX schema: <http://schema.org/>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nSELECT ?biotools_ID (COUNT (?application) AS ?count)\nWHERE { ?application schema:identifier ?biotools_ID . }\nGROUP BY ?biotools_ID\nORDER BY DESC(?count)\nLIMIT 10` }
+    { label: "SoftwareApplication & bio.tools IDs", query: `PREFIX biotools: <https://bio.tools/>\nPREFIX schema: <http://schema.org/>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nSELECT ?application ?biotools_ID \nWHERE { ?application schema:identifier ?biotools_ID .\nFILTER STRSTARTS(STR( ?biotools_ID ), "https://bio.tools") }\nORDER BY ?biotools_ID` }
 ];
 
 document.getElementById("examples").innerHTML = EXAMPLES.map((e, i) =>
