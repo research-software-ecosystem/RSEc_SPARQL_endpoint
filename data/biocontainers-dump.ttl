@@ -16,6 +16,14 @@ biocontainers:CRISPR-TAPE a schema1:SoftwareApplication ;
     schema1:name "CRISPR-TAPE" ;
     schema1:url "https://github.com/LaboratoryChild/CRISPR-TAPE" .
 
+biocontainers:LIMBR a schema1:SoftwareApplication ;
+    schema1:description "Learning and Imputation for Mass-spec Bias Reduction" ;
+    schema1:keywords "Peptides",
+        "Proteomics" ;
+    schema1:license "BSD-3" ;
+    schema1:name "LIMBR" ;
+    schema1:url "https://github.com/aleccrowell/LIMBR" .
+
 biocontainers:a5-miseq a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1093/bioinformatics/btu661" ;
     schema1:description "A5-miseq is a pipeline for assembling dna sequence data generated on the illumina sequencing platform. this readme will take you through the steps necessary for running" ;
@@ -36769,7 +36777,6 @@ biocontainers:deepbinner a schema1:SoftwareApplication ;
     schema1:url "https://github.com/rrwick/Deepbinner" .
 
 biocontainers:deepgoplus a schema1:SoftwareApplication ;
-    schema1:citation "doi:10.1093/bioinformatics/btz595" ;
     schema1:description "Deepgoplus is a novel method for predicting protein functions from protein sequences using deep neural networks combined with sequence similarity based predictions." ;
     schema1:keywords "Protein Sequences",
         "protein function prediction" ;
@@ -36812,19 +36819,7 @@ biocontainers:deepmedic a schema1:SoftwareApplication ;
     schema1:url "https://github.com/Kamnitsask/deepmedic" .
 
 biocontainers:deepmod a schema1:SoftwareApplication ;
-    schema1:citation "doi:10.1038/s41467-019-10168-2" ;
     schema1:description "A deep-learning method for dna modifcation (5mc and 6ma) prediction." ;
-    schema1:keywords "Chlamydomonas reinhardtii",
-        "DNA Methylation",
-        "Databases, Nucleic Acid",
-        "Epigenesis, Genetic",
-        "Escherichia coli",
-        "Genome, Bacterial",
-        "Genome, Human",
-        "Genome, Plant",
-        "Humans",
-        "Nanopores",
-        "Neural Networks, Computer" ;
     schema1:license "Not available" ;
     schema1:name "deepmod" ;
     schema1:url "https://github.com/WGLab/DeepMod" .
@@ -37680,6 +37675,7 @@ biocontainers:dr-disco a schema1:SoftwareApplication ;
     schema1:url "https://github.com/yhoogstrate/dr-disco" .
 
 biocontainers:dram a schema1:SoftwareApplication ;
+    schema1:citation "doi:10.1093/nar/gkaa621" ;
     schema1:description "Distilled and refined annotation of metabolism: a tool for the annotation and curation of function for microbial and viral genomes" ;
     schema1:keywords "Genomics",
         "Metagenome",
@@ -61405,6 +61401,17 @@ biocontainers:pyopenms a schema1:SoftwareApplication ;
     schema1:license "BSD-3-Clause" ;
     schema1:name "pyopenms" ;
     schema1:url "https://github.com/OpenMS/OpenMS" .
+
+biocontainers:pyopenms-extra-Fabian-Yannik-Laura a schema1:SoftwareApplication ;
+    schema1:citation "doi:10.7287/PEERJ.PREPRINTS.27736" ;
+    schema1:description "pyOpenMS are the Python bindings to the OpenMS open-source C++ library for LC-MS data management and analyses. The Python bindings cover a large part of the OpenMS API to enable rapid algorithm development and workflow development. pyOpenMS supports the Proteomics Standard Initiative (PSI) formats for MS data. These utils contain documentation, installation instructions and example code that show the different functions of pyOpenMS." ;
+    schema1:identifier biotools:pyOpenMS ;
+    schema1:keywords "Protein modifications",
+        "Proteomics",
+        "Proteomics experiment" ;
+    schema1:license "MIT" ;
+    schema1:name "pyopenms-extra-Fabian-Yannik-Laura" ;
+    schema1:url "https://pypi.org/project/pyopenms-extra-Fabian-Yannik-Laura/" .
 
 biocontainers:pyopenms-nightly a schema1:SoftwareApplication ;
     schema1:citation "doi:10.7287/PEERJ.PREPRINTS.27736" ;

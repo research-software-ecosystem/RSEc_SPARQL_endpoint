@@ -1,4 +1,4 @@
-@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix bioconda: <https://bioconda.github.io/recipes/> .
 @prefix biotools: <https://bio.tools/> .
 @prefix schema1: <http://schema.org/> .
 
@@ -34,12 +34,12 @@ bioconda:abricate a schema1:SoftwareApplication ;
 bioconda:abritamr a schema1:SoftwareApplication ;
     schema1:author "kristyhoran" ;
     schema1:description "Idenify bacterial AMR genes and SNPs in genome assemblies" ;
-    schema1:downloadUrl "https://pypi.org/packages/source/a/abritamr/abritamr-1.2.0.tar.gz" ;
+    schema1:downloadUrl "https://pypi.org/packages/source/a/abritamr/abritamr-1.3.0.tar.gz" ;
     schema1:identifier biotools:abritamr ;
     schema1:license "GPL-3.0-only" ;
     schema1:maintainer "kristyhoran" ;
     schema1:name "abritamr" ;
-    schema1:softwareVersion "1.2.0" ;
+    schema1:softwareVersion "1.3.0" ;
     schema1:url "https://github.com/MDU-PHL/abritamr" .
 
 bioconda:abyss a schema1:SoftwareApplication ;
@@ -197,13 +197,13 @@ bioconda:any2fasta a schema1:SoftwareApplication ;
 bioconda:apscale a schema1:SoftwareApplication ;
     schema1:author "DominikBuchner" ;
     schema1:description "Advanced Pipeline for Simple yet Comprehensive AnaLysEs of DNA metabarcoding data." ;
-    schema1:downloadUrl "https://pypi.org/packages/source/a/apscale/apscale-4.3.0.tar.gz" ;
+    schema1:downloadUrl "https://pypi.org/packages/source/a/apscale/apscale-4.3.2.tar.gz" ;
     schema1:identifier biotools:apscale ;
     schema1:license "MIT" ;
     schema1:maintainer "DominikBuchner" ;
     schema1:name "apscale" ;
     schema1:softwareHelp "https://github.com/DominikBuchner/apscale/blob/main/README.md" ;
-    schema1:softwareVersion "4.3.0" ;
+    schema1:softwareVersion "4.3.2" ;
     schema1:url "https://github.com/DominikBuchner/apscale" .
 
 bioconda:arb-bio a schema1:SoftwareApplication ;
@@ -290,7 +290,7 @@ bioconda:augur a schema1:SoftwareApplication ;
         "victorlin" ;
     schema1:citation "doi:10.21105/joss.02906" ;
     schema1:description "Process pathogen genome data for the Nextstrain platform." ;
-    schema1:downloadUrl "https://github.com/nextstrain/augur/releases/download/33.1.0/nextstrain_augur-33.1.0.tar.gz" ;
+    schema1:downloadUrl "https://github.com/nextstrain/augur/releases/download/33.4.1/nextstrain_augur-33.4.1.tar.gz" ;
     schema1:identifier biotools:Augur ;
     schema1:license "AGPL-3.0-only" ;
     schema1:maintainer "corneliusroemer",
@@ -300,7 +300,7 @@ bioconda:augur a schema1:SoftwareApplication ;
         "victorlin" ;
     schema1:name "augur" ;
     schema1:softwareHelp "https://docs.nextstrain.org/projects/augur" ;
-    schema1:softwareVersion "33.1.0" ;
+    schema1:softwareVersion "33.4.1" ;
     schema1:url "https://github.com/nextstrain/augur" .
 
 bioconda:autocycler a schema1:SoftwareApplication ;
@@ -320,29 +320,35 @@ bioconda:autocycler a schema1:SoftwareApplication ;
 
 bioconda:b2btools a schema1:SoftwareApplication ;
     schema1:author "agdiaz" ;
-    schema1:citation "doi:10.48550/arXiv.2405.02136" ;
+    schema1:citation "doi:10.1016/j.jmb.2022.167579",
+        "doi:10.1038/ncomms3741",
+        "doi:10.1038/s41598-017-08366-3",
+        "doi:10.1093/bioinformatics/btz274",
+        "doi:10.1093/bioinformatics/btz912",
+        "doi:10.1093/nar/gkaa391",
+        "doi:10.1093/nar/gkab425",
+        "doi:10.3389/fmolb.2022.959956" ;
     schema1:description "The bio2Byte software suite to predict protein biophysical properties." ;
-    schema1:downloadUrl "https://files.pythonhosted.org/packages/81/a6/72be9d8675e346fdccb0fde3bd1c4c3b28f0369c125da7fe4a0d136a0079/pomegranate-0.14.9.tar.gz",
-        "https://pypi.org/packages/source/b/b2btools/b2btools-3.0.7.tar.gz" ;
+    schema1:downloadUrl "https://pypi.org/packages/source/b/b2btools/b2btools-3.0.8.tar.gz" ;
     schema1:identifier biotools:b2btools ;
     schema1:license "GPL-3.0-or-later" ;
     schema1:maintainer "agdiaz" ;
     schema1:name "b2btools" ;
-    schema1:softwareHelp "https://bio2byte.be/b2btools" ;
-    schema1:softwareVersion "3.0.7" ;
-    schema1:url "https://bio2byte.be/b2btools" .
+    schema1:softwareHelp "https://bio2byte.be/b2btools/package-documentation" ;
+    schema1:softwareVersion "3.0.8" ;
+    schema1:url "https://bio2byte.be" .
 
 bioconda:bactopia a schema1:SoftwareApplication ;
     schema1:author "rpetit3" ;
     schema1:citation "doi:10.1128/mSystems.00190-20" ;
     schema1:description "Bactopia is a flexible pipeline for complete analysis of bacterial genomes." ;
-    schema1:downloadUrl "https://github.com/bactopia/bactopia/archive/v3.2.0.tar.gz" ;
+    schema1:downloadUrl "https://github.com/bactopia/bactopia/archive/v4.0.0.tar.gz" ;
     schema1:identifier biotools:bactopia ;
     schema1:license "MIT" ;
     schema1:maintainer "rpetit3" ;
     schema1:name "bactopia" ;
-    schema1:softwareVersion "3.2.0" ;
-    schema1:url "https://bactopia.github.io/" .
+    schema1:softwareVersion "4.0.0" ;
+    schema1:url "https://bactopia.io/" .
 
 bioconda:bakta a schema1:SoftwareApplication ;
     schema1:author "oschwengers" ;
@@ -360,12 +366,12 @@ bioconda:bakta a schema1:SoftwareApplication ;
 
 bioconda:bali-phy a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1093/bioinformatics/btab129" ;
-    schema1:description "Phylogenetics - Bayesian estimation of phylogenies and multiple sequence alignments." ;
-    schema1:downloadUrl "https://github.com/bredelings/bali-phy/archive/4.1.tar.gz" ;
+    schema1:description "Bayesian co-estimation of phylogenies and multiple sequence alignments." ;
+    schema1:downloadUrl "https://github.com/bredelings/bali-phy/archive/4.2.tar.gz" ;
     schema1:identifier biotools:bali-phy ;
-    schema1:license "GPL2" ;
+    schema1:license "GPL-2.0-only" ;
     schema1:name "bali-phy" ;
-    schema1:softwareVersion "4.1" ;
+    schema1:softwareVersion "4.2" ;
     schema1:url "http://www.bali-phy.org" .
 
 bioconda:bam-readcount a schema1:SoftwareApplication ;
@@ -402,13 +408,13 @@ bioconda:bamscale a schema1:SoftwareApplication ;
 bioconda:bamslice a schema1:SoftwareApplication ;
     schema1:author "bwlang" ;
     schema1:description "Extract byte ranges from BAM files and convert to interleaved FASTQ format for parallel processing" ;
-    schema1:downloadUrl "https://github.com/nebiolabs/bamslice/archive/v0.1.7.tar.gz" ;
+    schema1:downloadUrl "https://github.com/nebiolabs/bamslice/archive/v0.2.1.tar.gz" ;
     schema1:identifier biotools:bamslice ;
     schema1:license "AGPL-3.0-only" ;
     schema1:maintainer "bwlang" ;
     schema1:name "bamslice" ;
     schema1:softwareHelp "https://docs.rs/bamslice" ;
-    schema1:softwareVersion "0.1.7" ;
+    schema1:softwareVersion "0.2.1" ;
     schema1:url "https://github.com/nebiolabs/bamslice" .
 
 bioconda:bamtocov a schema1:SoftwareApplication ;
@@ -1211,12 +1217,12 @@ bioconda:bioconductor-beclear a schema1:SoftwareApplication ;
 bioconda:bioconductor-bgeedb a schema1:SoftwareApplication ;
     schema1:citation "doi:10.12688/f1000research.9973.1" ;
     schema1:description "Annotation and gene expression data retrieval from Bgee database. TopAnat, an anatomical entities Enrichment Analysis tool for UBERON ontology" ;
-    schema1:downloadUrl "['https://bioconductor.org/packages/3.22/bioc/src/contrib/BgeeDB_2.36.0.tar.gz', 'https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/BgeeDB/BgeeDB_2.36.0.tar.gz', 'https://bioarchive.galaxyproject.org/BgeeDB_2.36.0.tar.gz', 'https://depot.galaxyproject.org/software/bioconductor-bgeedb/bioconductor-bgeedb_2.36.0_src_all.tar.gz']" ;
+    schema1:downloadUrl "['https://bioconductor.org/packages/3.23/bioc/src/contrib/BgeeDB_2.38.1.tar.gz', 'https://bioconductor.org/packages/3.23/bioc/src/contrib/Archive/BgeeDB/BgeeDB_2.38.1.tar.gz', 'https://bioarchive.galaxyproject.org/BgeeDB_2.38.1.tar.gz', 'https://depot.galaxyproject.org/software/bioconductor-bgeedb/bioconductor-bgeedb_2.38.1_src_all.tar.gz']" ;
     schema1:identifier biotools:bgeedb ;
     schema1:license "GPL-3 + file LICENSE" ;
     schema1:name "bioconductor-bgeedb" ;
-    schema1:softwareVersion "2.36.0" ;
-    schema1:url "https://bioconductor.org/packages/3.22/bioc/html/BgeeDB.html" .
+    schema1:softwareVersion "2.38.1" ;
+    schema1:url "https://bioconductor.org/packages/3.23/bioc/html/BgeeDB.html" .
 
 bioconda:bioconductor-bgmix a schema1:SoftwareApplication ;
     schema1:citation "doi:10.2202/1544-6115.1314" ;
@@ -2642,12 +2648,12 @@ bioconda:bioconductor-dnabarcodes a schema1:SoftwareApplication ;
 bioconda:bioconductor-dnacopy a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1038/nmeth.3252" ;
     schema1:description "DNA Copy Number Data Analysis" ;
-    schema1:downloadUrl "['https://bioconductor.org/packages/3.22/bioc/src/contrib/DNAcopy_1.84.0.tar.gz', 'https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/DNAcopy/DNAcopy_1.84.0.tar.gz', 'https://bioarchive.galaxyproject.org/DNAcopy_1.84.0.tar.gz', 'https://depot.galaxyproject.org/software/bioconductor-dnacopy/bioconductor-dnacopy_1.84.0_src_all.tar.gz']" ;
+    schema1:downloadUrl "['https://bioconductor.org/packages/3.23/bioc/src/contrib/DNAcopy_1.86.0.tar.gz', 'https://bioconductor.org/packages/3.23/bioc/src/contrib/Archive/DNAcopy/DNAcopy_1.86.0.tar.gz', 'https://bioarchive.galaxyproject.org/DNAcopy_1.86.0.tar.gz', 'https://depot.galaxyproject.org/software/bioconductor-dnacopy/bioconductor-dnacopy_1.86.0_src_all.tar.gz']" ;
     schema1:identifier biotools:dnacopy ;
     schema1:license "GPL (>= 2)" ;
     schema1:name "bioconductor-dnacopy" ;
-    schema1:softwareVersion "1.84.0" ;
-    schema1:url "https://bioconductor.org/packages/3.22/bioc/html/DNAcopy.html" .
+    schema1:softwareVersion "1.86.0" ;
+    schema1:url "https://bioconductor.org/packages/3.23/bioc/html/DNAcopy.html" .
 
 bioconda:bioconductor-dnashaper a schema1:SoftwareApplication ;
     schema1:description "High-throughput prediction of DNA shape features" ;
@@ -8137,12 +8143,12 @@ bioconda:biophi a schema1:SoftwareApplication ;
 bioconda:biscuit a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1093/nar/gkae097" ;
     schema1:description "A utility for analyzing sodium bisulfite conversion-based DNA methylation/modification data." ;
-    schema1:downloadUrl "https://github.com/huishenlab/biscuit/releases/download/v1.8.0.20260217/release-source.zip" ;
+    schema1:downloadUrl "https://github.com/huishenlab/biscuit/releases/download/v1.9.0.20260624/release-source.zip" ;
     schema1:identifier biotools:biscuit ;
     schema1:license "MIT" ;
     schema1:name "biscuit" ;
     schema1:softwareHelp "https://huishenlab.github.io/biscuit" ;
-    schema1:softwareVersion "1.8.0.20260217" ;
+    schema1:softwareVersion "1.9.0.20260624" ;
     schema1:url "https://github.com/huishenlab/biscuit" .
 
 bioconda:bismark a schema1:SoftwareApplication ;
@@ -8228,8 +8234,8 @@ bioconda:bracken a schema1:SoftwareApplication ;
     schema1:identifier biotools:Bracken ;
     schema1:license "GPL-3.0-or-later" ;
     schema1:name "bracken" ;
-    schema1:softwareHelp "https://github.com/jenniferlu717/Bracken/blob/v3.1/README.md" ;
-    schema1:softwareVersion "3.1" ;
+    schema1:softwareHelp "https://github.com/jenniferlu717/Bracken/blob/v3.1p1/README.md" ;
+    schema1:softwareVersion "3.1p1" ;
     schema1:url "https://github.com/jenniferlu717/Bracken" .
 
 bioconda:breakdancer a schema1:SoftwareApplication ;
@@ -8308,13 +8314,13 @@ bioconda:busco a schema1:SoftwareApplication ;
     schema1:author "berkelem" ;
     schema1:citation "doi:10.1093/bioinformatics/btv351" ;
     schema1:description "Assessment of assembly completeness using Universal Single Copy Orthologs." ;
-    schema1:downloadUrl "https://gitlab.com/ezlab/busco/-/archive/6.0.0/busco-6.0.0.tar.gz" ;
+    schema1:downloadUrl "https://gitlab.com/ezlab/busco/-/archive/6.1.0/busco-6.1.0.tar.gz" ;
     schema1:identifier biotools:busco ;
     schema1:license "MIT" ;
     schema1:maintainer "berkelem" ;
     schema1:name "busco" ;
     schema1:softwareHelp "https://busco.ezlab.org/busco_userguide.html" ;
-    schema1:softwareVersion "6.0.0" ;
+    schema1:softwareVersion "6.1.0" ;
     schema1:url "https://busco.ezlab.org" .
 
 bioconda:bwa a schema1:SoftwareApplication ;
@@ -8497,11 +8503,11 @@ bioconda:checkm-genome a schema1:SoftwareApplication ;
 bioconda:checkv a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1038/s41587-020-00774-7" ;
     schema1:description "Assess the quality of metagenome-assembled viral genomes." ;
-    schema1:downloadUrl "https://pypi.io/packages/source/c/checkv/checkv-1.0.3.tar.gz" ;
+    schema1:downloadUrl "https://pypi.io/packages/source/c/checkv/checkv-1.1.1.tar.gz" ;
     schema1:identifier biotools:checkv ;
-    schema1:license "Modified BSD" ;
+    schema1:license "BSD-3-Clause-LBNL" ;
     schema1:name "checkv" ;
-    schema1:softwareVersion "1.0.3" ;
+    schema1:softwareVersion "1.1.1" ;
     schema1:url "https://bitbucket.org/berkeleylab/checkv" .
 
 bioconda:chiron a schema1:SoftwareApplication ;
@@ -8532,11 +8538,11 @@ bioconda:chorus2 a schema1:SoftwareApplication ;
 
 bioconda:chromhmm a schema1:SoftwareApplication ;
     schema1:description "ChromHMM is software for learning and characterizing chromatin states. ChromHMM can integrate multiple chromatin datasets such as ChIP-seq data of various histone modifications to discover de novo the major re-occuring combinatorial and spatial patterns of marks." ;
-    schema1:downloadUrl "https://github.com/jernst98/ChromHMM/archive/v1.27.tar.gz" ;
+    schema1:downloadUrl "https://github.com/jernst98/ChromHMM/archive/v1.28.tar.gz" ;
     schema1:identifier biotools:chromhmm ;
     schema1:license "GPLv3" ;
     schema1:name "chromhmm" ;
-    schema1:softwareVersion "1.27" ;
+    schema1:softwareVersion "1.28" ;
     schema1:url "https://github.com/jernst98/ChromHMM" .
 
 bioconda:circos a schema1:SoftwareApplication ;
@@ -8553,13 +8559,13 @@ bioconda:circtools a schema1:SoftwareApplication ;
     schema1:author "BarryDigby" ;
     schema1:citation "doi:10.1093/bioinformatics/bty948" ;
     schema1:description "circtools - a circular RNA toolbox." ;
-    schema1:downloadUrl "https://pypi.io/packages/source/c/circtools/circtools-2.0.4.tar.gz" ;
+    schema1:downloadUrl "https://pypi.io/packages/source/c/circtools/circtools-2.0.5.post2.tar.gz" ;
     schema1:identifier biotools:circtools ;
     schema1:license "GPL-3.0-or-later" ;
     schema1:maintainer "BarryDigby" ;
     schema1:name "circtools" ;
     schema1:softwareHelp "https://docs.circ.tools/en/latest" ;
-    schema1:softwareVersion "2.0.4" ;
+    schema1:softwareVersion "2.0.5.post2" ;
     schema1:url "https://github.com/jakobilab/circtools" .
 
 bioconda:cite-seq-count a schema1:SoftwareApplication ;
@@ -8599,12 +8605,12 @@ bioconda:clinker-py a schema1:SoftwareApplication ;
 
 bioconda:clonalframeml a schema1:SoftwareApplication ;
     schema1:description "Efficient inferencing of recombination in bacterial genomes." ;
-    schema1:downloadUrl "https://github.com/xavierdidelot/ClonalFrameML/archive/refs/tags/v1.13.tar.gz" ;
+    schema1:downloadUrl "https://github.com/xavierdidelot/ClonalFrameML/archive/refs/tags/v1.20.tar.gz" ;
     schema1:identifier biotools:clonalframeml ;
     schema1:license "GPL-3.0-or-later" ;
     schema1:name "clonalframeml" ;
     schema1:softwareHelp "https://github.com/xavierdidelot/clonalframeml/wiki" ;
-    schema1:softwareVersion "1.13" ;
+    schema1:softwareVersion "1.2" ;
     schema1:url "https://github.com/xavierdidelot/ClonalFrameML" .
 
 bioconda:clustalw a schema1:SoftwareApplication ;
@@ -8844,7 +8850,7 @@ bioconda:cutadapt a schema1:SoftwareApplication ;
     schema1:author "marcelm" ;
     schema1:citation "doi:10.14806/ej.17.1.200" ;
     schema1:description "Trim adapters from high-throughput sequencing reads" ;
-    schema1:downloadUrl "https://files.pythonhosted.org/packages/25/0a/2b4007e4577dd3e19affdf7aa716ebf9642e224d68a9205b2081d42ed08a/cutadapt-5.2.tar.gz" ;
+    schema1:downloadUrl "https://pypi.org/packages/source/c/cutadapt/cutadapt-5.2.tar.gz" ;
     schema1:identifier biotools:cutadapt ;
     schema1:license "MIT" ;
     schema1:maintainer "marcelm" ;
@@ -8881,12 +8887,12 @@ bioconda:cytoscape a schema1:SoftwareApplication ;
 bioconda:cyvcf2 a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1093/bioinformatics/btx057" ;
     schema1:description "A cython wrapper around htslib built for fast parsing of Variant Call Format (VCF) files." ;
-    schema1:downloadUrl "https://pypi.org/packages/source/c/cyvcf2/cyvcf2-0.32.1.tar.gz" ;
+    schema1:downloadUrl "https://pypi.org/packages/source/c/cyvcf2/cyvcf2-0.34.0.tar.gz" ;
     schema1:identifier biotools:cyvcf2 ;
     schema1:license "MIT" ;
     schema1:name "cyvcf2" ;
     schema1:softwareHelp "https://brentp.github.io/cyvcf2" ;
-    schema1:softwareVersion "0.32.1" ;
+    schema1:softwareVersion "0.34.0" ;
     schema1:url "https://github.com/brentp/cyvcf2" .
 
 bioconda:dadaist2 a schema1:SoftwareApplication ;
@@ -8907,13 +8913,13 @@ bioconda:dbcan a schema1:SoftwareApplication ;
         "doi:10.1093/nar/gkx894",
         "doi:10.1093/nar/gky418" ;
     schema1:description "Standalone version of dbCAN annotation tool for automated CAZyme annotation." ;
-    schema1:downloadUrl "https://github.com/bcb-unl/run_dbcan/archive/v5.2.8.tar.gz" ;
+    schema1:downloadUrl "https://github.com/bcb-unl/run_dbcan/archive/v5.2.9.tar.gz" ;
     schema1:identifier biotools:dbcan2 ;
     schema1:license "GPL-3.0-only" ;
     schema1:maintainer "Xinpeng021001" ;
     schema1:name "dbcan" ;
     schema1:softwareHelp "https://run-dbcan.readthedocs.io/en/latest" ;
-    schema1:softwareVersion "5.2.8" ;
+    schema1:softwareVersion "5.2.9" ;
     schema1:url "https://bcb.unl.edu/dbCAN2" .
 
 bioconda:deeplc a schema1:SoftwareApplication ;
@@ -8942,13 +8948,13 @@ bioconda:deeptools a schema1:SoftwareApplication ;
 
 bioconda:delly a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1093/bioinformatics/bts378" ;
-    schema1:description "Structural variant discovery by integrated paired-end and split-read analysis." ;
-    schema1:downloadUrl "https://github.com/dellytools/delly/archive/v1.7.3.tar.gz" ;
+    schema1:description "Structural variant discovery by integrated paired-end and split-read analysis" ;
+    schema1:downloadUrl "https://github.com/dellytools/delly/archive/v2.1.0.tar.gz" ;
     schema1:identifier biotools:delly2 ;
     schema1:license "BSD-3-Clause" ;
     schema1:name "delly" ;
-    schema1:softwareHelp "https://github.com/dellytools/delly/blob/v1.7.3/README.md" ;
-    schema1:softwareVersion "1.7.3" ;
+    schema1:softwareHelp "https://github.com/dellytools/delly/blob/v2.1.0/README.md" ;
+    schema1:softwareVersion "2.1.0" ;
     schema1:url "https://github.com/dellytools/delly" .
 
 bioconda:demuxlet a schema1:SoftwareApplication ;
@@ -8996,12 +9002,12 @@ bioconda:desalt a schema1:SoftwareApplication ;
 bioconda:dfast a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1093/bioinformatics/btx713" ;
     schema1:description "DDBJ Fast Annotation and Submission Tool - Prokaryotic genome annotation pipeline" ;
-    schema1:downloadUrl "https://github.com/nigyta/dfast_core/archive/1.3.9.tar.gz" ;
+    schema1:downloadUrl "https://github.com/nigyta/dfast_core/archive/1.4.0.tar.gz" ;
     schema1:identifier biotools:dfast ;
     schema1:license "GPL-3.0-only" ;
     schema1:name "dfast" ;
-    schema1:softwareHelp "https://github.com/nigyta/dfast_core/blob/1.3.9/README.md" ;
-    schema1:softwareVersion "1.3.9" ;
+    schema1:softwareHelp "https://github.com/nigyta/dfast_core/blob/1.4.0/README.md" ;
+    schema1:softwareVersion "1.4.0" ;
     schema1:url "https://dfast.nig.ac.jp" .
 
 bioconda:dialign-tx a schema1:SoftwareApplication ;
@@ -9018,12 +9024,12 @@ bioconda:dialign-tx a schema1:SoftwareApplication ;
 bioconda:diamond a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1038/s41592-021-01101-x" ;
     schema1:description "Accelerated BLAST compatible local sequence aligner." ;
-    schema1:downloadUrl "https://github.com/bbuchfink/diamond/archive/v2.1.24.tar.gz" ;
+    schema1:downloadUrl "https://github.com/bbuchfink/diamond/archive/v2.2.2.tar.gz" ;
     schema1:identifier biotools:diamond ;
     schema1:license "GPL-3.0-or-later" ;
     schema1:name "diamond" ;
     schema1:softwareHelp "https://github.com/bbuchfink/diamond/wiki" ;
-    schema1:softwareVersion "2.1.24" ;
+    schema1:softwareVersion "2.2.2" ;
     schema1:url "https://github.com/bbuchfink/diamond" .
 
 bioconda:dicey a schema1:SoftwareApplication ;
@@ -9082,12 +9088,12 @@ bioconda:discovar a schema1:SoftwareApplication ;
 bioconda:drep a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1038/ismej.2017.126" ;
     schema1:description "De-replication of microbial genomes assembled from multiple samples." ;
-    schema1:downloadUrl "https://pypi.io/packages/source/d/drep/drep-3.6.2.tar.gz" ;
+    schema1:downloadUrl "https://pypi.io/packages/source/d/drep/drep-3.7.1.tar.gz" ;
     schema1:identifier biotools:drep ;
     schema1:license "MIT" ;
     schema1:name "drep" ;
     schema1:softwareHelp "https://drep.readthedocs.io/en/latest" ;
-    schema1:softwareVersion "3.6.2" ;
+    schema1:softwareVersion "3.7.1" ;
     schema1:url "https://github.com/MrOlm/drep" .
 
 bioconda:dsk a schema1:SoftwareApplication ;
@@ -9180,14 +9186,14 @@ bioconda:effectivet3 a schema1:SoftwareApplication ;
 bioconda:egglib a schema1:SoftwareApplication ;
     schema1:author "ranwez" ;
     schema1:citation "doi:10.1111/1755-0998.13672" ;
-    schema1:description "Evolutionary Genetics and Genomics Library. EggLib is a C++/Python library and program package for evolutionary genetics and genomics. Main features are sequence data management, sequence polymorphism analysis, and coalescent simulations. EggLib is a flexible Python module with a performant underlying C++ library and allows fast and intuitive development of Python programs and scripts." ;
-    schema1:downloadUrl "https://pypi.org/packages/source/e/egglib/egglib-3.6.0.tar.gz" ;
+    schema1:description "Evolutionary Genetics and Genomics Library" ;
+    schema1:downloadUrl "https://pypi.org/packages/source/e/egglib/egglib-3.6.1.tar.gz" ;
     schema1:identifier biotools:egglib ;
     schema1:license "GPL-3.0-or-later" ;
     schema1:maintainer "ranwez" ;
     schema1:name "egglib" ;
     schema1:softwareHelp "https://www.egglib.org/index.html" ;
-    schema1:softwareVersion "3.6.0" ;
+    schema1:softwareVersion "3.6.1" ;
     schema1:url "https://egglib.org" .
 
 bioconda:eigensoft a schema1:SoftwareApplication ;
@@ -9232,12 +9238,12 @@ bioconda:encyclopedia a schema1:SoftwareApplication ;
 
 bioconda:ensembl-vep a schema1:SoftwareApplication ;
     schema1:description "Ensembl Variant Effect Predictor" ;
-    schema1:downloadUrl "https://github.com/Ensembl/ensembl-vep/archive/refs/tags/release/115.2.tar.gz" ;
+    schema1:downloadUrl "https://github.com/Ensembl/ensembl-vep/archive/refs/tags/release/116.0.tar.gz" ;
     schema1:identifier biotools:vep ;
     schema1:license "Apache-2.0" ;
     schema1:name "ensembl-vep" ;
     schema1:softwareHelp "https://useast.ensembl.org/info/docs/tools/vep/script/vep_tutorial.html" ;
-    schema1:softwareVersion "115.2" ;
+    schema1:softwareVersion "116.0" ;
     schema1:url "https://www.ensembl.org/info/docs/tools/vep/index.html" .
 
 bioconda:entrez-direct a schema1:SoftwareApplication ;
@@ -9321,14 +9327,14 @@ bioconda:falco a schema1:SoftwareApplication ;
         "guilhermesena1" ;
     schema1:citation "doi:10.12688/f1000research.21142.2" ;
     schema1:description "falco is a drop-in C++ implementation of FastQC to assess the quality of sequence reads." ;
-    schema1:downloadUrl "https://github.com/smithlabcode/falco/releases/download/v1.3.0/falco-1.3.0.tar.gz" ;
+    schema1:downloadUrl "https://github.com/smithlabcode/falco/releases/download/v1.3.2/falco-1.3.2.tar.gz" ;
     schema1:identifier biotools:falco ;
     schema1:license "GPL-3.0-only" ;
     schema1:maintainer "andrewdavidsmith",
         "guilhermesena1" ;
     schema1:name "falco" ;
     schema1:softwareHelp "https://falco.readthedocs.io" ;
-    schema1:softwareVersion "1.3.0" ;
+    schema1:softwareVersion "1.3.2" ;
     schema1:url "https://github.com/smithlabcode/falco" .
 
 bioconda:famsa a schema1:SoftwareApplication ;
@@ -9385,12 +9391,12 @@ bioconda:fastool a schema1:SoftwareApplication ;
 bioconda:fastp a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1002/imt2.107" ;
     schema1:description "A ultra-fast FASTQ preprocessor with full features (QC/adapters/trimming/filtering/splitting...)." ;
-    schema1:downloadUrl "https://github.com/OpenGene/fastp/archive/v1.3.3.tar.gz" ;
+    schema1:downloadUrl "https://github.com/OpenGene/fastp/archive/v1.3.6.tar.gz" ;
     schema1:identifier biotools:fastp ;
     schema1:license "MIT" ;
     schema1:name "fastp" ;
-    schema1:softwareHelp "https://github.com/OpenGene/fastp/blob/v1.3.3/README.md" ;
-    schema1:softwareVersion "1.3.3" ;
+    schema1:softwareHelp "https://github.com/OpenGene/fastp/blob/v1.3.6/README.md" ;
+    schema1:softwareVersion "1.3.6" ;
     schema1:url "https://github.com/OpenGene/fastp" .
 
 bioconda:fastqc a schema1:SoftwareApplication ;
@@ -9477,6 +9483,20 @@ bioconda:flye a schema1:SoftwareApplication ;
     schema1:softwareHelp "https://github.com/mikolmogorov/Flye/blob/flye/docs/USAGE.md" ;
     schema1:softwareVersion "2.9.6" ;
     schema1:url "https://github.com/mikolmogorov/Flye" .
+
+bioconda:fmh-funprofiler a schema1:SoftwareApplication ;
+    schema1:author "dkoslicki",
+        "miraep8" ;
+    schema1:citation "doi:10.1093/bioinformatics/btae397" ;
+    schema1:description "fmh-funprofiler is a pipeline that leverages FracMinHash (implemented in sourmash) to functionally profile metagenomic samples, offering a faster and more memory-efficient alternative to alignment-based methods." ;
+    schema1:downloadUrl "https://github.com/KoslickiLab/fmh-funprofiler/archive/refs/tags/v1.1.1.tar.gz" ;
+    schema1:identifier biotools:fmh-funprofiler ;
+    schema1:license "MIT" ;
+    schema1:maintainer "dkoslicki",
+        "miraep8" ;
+    schema1:name "fmh-funprofiler" ;
+    schema1:softwareVersion "1.1.1" ;
+    schema1:url "https://github.com/KoslickiLab/fmh-funprofiler" .
 
 bioconda:foldmason a schema1:SoftwareApplication ;
     schema1:author "gamcil",
@@ -9825,14 +9845,14 @@ bioconda:gimmemotifs a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1093/bioinformatics/btq636",
         "doi:10.1101/474403" ;
     schema1:description "Motif prediction pipeline and various motif-related tools." ;
-    schema1:downloadUrl "https://github.com/vanheeringen-lab/gimmemotifs/releases/download/0.18.2/gimmemotifs-0.18.2.tar.gz" ;
+    schema1:downloadUrl "https://github.com/vanheeringen-lab/gimmemotifs/releases/download/0.18.4/gimmemotifs-0.18.4.tar.gz" ;
     schema1:identifier biotools:gimmemotifs ;
     schema1:license "MIT" ;
     schema1:maintainer "siebrenf",
         "simonvh" ;
     schema1:name "gimmemotifs" ;
     schema1:softwareHelp "https://gimmemotifs.readthedocs.io/en/master" ;
-    schema1:softwareVersion "0.18.2" ;
+    schema1:softwareVersion "0.18.4" ;
     schema1:url "https://github.com/vanheeringen-lab/gimmemotifs" .
 
 bioconda:glimmer a schema1:SoftwareApplication ;
@@ -9904,12 +9924,12 @@ bioconda:gridss a schema1:SoftwareApplication ;
 bioconda:gseapy a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1093/bioinformatics/btac757" ;
     schema1:description "Gene Set Enrichment Analysis in Python." ;
-    schema1:downloadUrl "https://pypi.org/packages/source/g/gseapy/gseapy-1.1.13.tar.gz" ;
+    schema1:downloadUrl "https://pypi.org/packages/source/g/gseapy/gseapy-1.3.0.tar.gz" ;
     schema1:identifier biotools:gseapy ;
     schema1:license "BSD-3-Clause" ;
     schema1:name "gseapy" ;
     schema1:softwareHelp "https://gseapy.readthedocs.io/en/latest" ;
-    schema1:softwareVersion "1.1.13" ;
+    schema1:softwareVersion "1.3.0" ;
     schema1:url "https://github.com/zqfang/gseapy" .
 
 bioconda:gtdbtk a schema1:SoftwareApplication ;
@@ -9917,14 +9937,14 @@ bioconda:gtdbtk a schema1:SoftwareApplication ;
         "pchaumeil" ;
     schema1:citation "doi:10.1093/bioinformatics/btz848" ;
     schema1:description "A toolkit for assigning objective taxonomic classifications to bacterial and archaeal genomes." ;
-    schema1:downloadUrl "https://pypi.org/packages/source/g/gtdbtk/gtdbtk-2.7.1.tar.gz" ;
+    schema1:downloadUrl "https://pypi.org/packages/source/g/gtdbtk/gtdbtk-2.7.2.tar.gz" ;
     schema1:identifier biotools:GTDB-Tk ;
     schema1:license "GPL-3.0-or-later" ;
     schema1:maintainer "aaronmussig",
         "pchaumeil" ;
     schema1:name "gtdbtk" ;
     schema1:softwareHelp "https://ecogenomics.github.io/GTDBTk" ;
-    schema1:softwareVersion "2.7.1" ;
+    schema1:softwareVersion "2.7.2" ;
     schema1:url "https://github.com/Ecogenomics/GTDBTk" .
 
 bioconda:gubbins a schema1:SoftwareApplication ;
@@ -10211,12 +10231,12 @@ bioconda:hyphy a schema1:SoftwareApplication ;
         "doi:10.1093/bioinformatics/bti079",
         "doi:10.1093/molbev/msz197" ;
     schema1:description "An open-source software package for comparative sequence analysis using stochastic evolutionary models." ;
-    schema1:downloadUrl "https://github.com/veg/hyphy/archive/2.5.97.tar.gz" ;
+    schema1:downloadUrl "https://github.com/veg/hyphy/archive/2.5.100.tar.gz" ;
     schema1:identifier biotools:HyPhy ;
     schema1:license "MIT" ;
     schema1:name "hyphy" ;
     schema1:softwareHelp "https://hyphy.org" ;
-    schema1:softwareVersion "2.5.97" ;
+    schema1:softwareVersion "2.5.100" ;
     schema1:url "https://hyphy.org" .
 
 bioconda:hypo a schema1:SoftwareApplication ;
@@ -10296,7 +10316,7 @@ bioconda:immuneml a schema1:SoftwareApplication ;
         "pavlovicmilena" ;
     schema1:citation "doi:10.1038/s42256-021-00413-z" ;
     schema1:description "immuneML is a software platform for machine learning analysis of immune receptor repertoires." ;
-    schema1:downloadUrl "https://pypi.org/packages/source/i/immuneml/immuneml-3.0.22.tar.gz" ;
+    schema1:downloadUrl "https://pypi.org/packages/source/i/immuneml/immuneml-3.0.27.tar.gz" ;
     schema1:identifier biotools:immuneml ;
     schema1:license "APGL-3.0-only" ;
     schema1:maintainer "knutwa-ext",
@@ -10304,7 +10324,7 @@ bioconda:immuneml a schema1:SoftwareApplication ;
         "pavlovicmilena" ;
     schema1:name "immuneml" ;
     schema1:softwareHelp "https://docs.immuneml.uio.no" ;
-    schema1:softwareVersion "3.0.22" ;
+    schema1:softwareVersion "3.0.27" ;
     schema1:url "https://github.com/uio-bmi/immuneML" .
 
 bioconda:impute2 a schema1:SoftwareApplication ;
@@ -10419,15 +10439,15 @@ bioconda:iqtree a schema1:SoftwareApplication ;
         "doi:10.1093/sysbio/syz051",
         "doi:10.32942/X2P62N" ;
     schema1:description "Efficient phylogenomic software by maximum likelihood." ;
-    schema1:downloadUrl "https://github.com/iqtree/cmaple/archive/4795b124543c02439722f36cff439bd6517a825b.zip",
-        "https://github.com/iqtree/iqtree3/archive/refs/tags/v3.1.1.tar.gz",
+    schema1:downloadUrl "https://github.com/iqtree/cmaple/archive/v2.0.0.tar.gz",
+        "https://github.com/iqtree/iqtree3/archive/refs/tags/v3.1.2.tar.gz",
         "https://github.com/tothuhien/lsd2/archive/c61110f3a4fa05325b45c97b2134792ff9d55d4c.zip" ;
     schema1:identifier biotools:iqtree ;
     schema1:license "GPL-2.0-or-later" ;
     schema1:maintainer "corneliusroemer" ;
     schema1:name "iqtree" ;
     schema1:softwareHelp "http://www.iqtree.org/doc" ;
-    schema1:softwareVersion "3.1.1" ;
+    schema1:softwareVersion "3.1.2" ;
     schema1:url "http://www.iqtree.org" .
 
 bioconda:isaac4 a schema1:SoftwareApplication ;
@@ -10618,12 +10638,12 @@ bioconda:kled a schema1:SoftwareApplication ;
 bioconda:kma a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1093/nargab/lqaf116" ;
     schema1:description "KMA is a mapping method designed to map raw reads directly against redundant databases, in an ultra-fast manner using seed and extend." ;
-    schema1:downloadUrl "https://bitbucket.org/genomicepidemiology/kma/get/fdfc9b4bf3cc6fd252da0478685b1d8f5da6bd0a.tar.gz" ;
+    schema1:downloadUrl "https://bitbucket.org/genomicepidemiology/kma/get/1.6.13.tar.gz" ;
     schema1:identifier biotools:kma ;
     schema1:license "Apache-2.0" ;
     schema1:name "kma" ;
-    schema1:softwareHelp "https://bitbucket.org/genomicepidemiology/kma/src/1.6.10/README.md" ;
-    schema1:softwareVersion "1.6.10" ;
+    schema1:softwareHelp "https://bitbucket.org/genomicepidemiology/kma/src/1.6.13/README.md" ;
+    schema1:softwareVersion "1.6.13" ;
     schema1:url "https://bitbucket.org/genomicepidemiology/kma" .
 
 bioconda:kmasker a schema1:SoftwareApplication ;
@@ -10740,11 +10760,11 @@ bioconda:krona a schema1:SoftwareApplication ;
 
 bioconda:ksw a schema1:SoftwareApplication ;
     schema1:description "Ksw: (interactive) smith-waterman in C" ;
-    schema1:downloadUrl "https://github.com/nh13/ksw/releases/download/0.2.3/0.2.3.tar.gz" ;
+    schema1:downloadUrl "https://github.com/nh13/ksw/releases/download/0.3.0/0.3.0.tar.gz" ;
     schema1:identifier biotools:ksw ;
     schema1:license "MIT" ;
     schema1:name "ksw" ;
-    schema1:softwareVersion "0.2.3" ;
+    schema1:softwareVersion "0.3.0" ;
     schema1:url "https://github.com/nh13/ksw" .
 
 bioconda:kwip a schema1:SoftwareApplication ;
@@ -10913,6 +10933,19 @@ bioconda:longstitch a schema1:SoftwareApplication ;
     schema1:softwareHelp "https://github.com/BirolLab/LongStitch/blob/v1.0.5/README.md" ;
     schema1:softwareVersion "1.0.5" ;
     schema1:url "https://github.com/BirolLab/longstitch" .
+
+bioconda:longtr a schema1:SoftwareApplication ;
+    schema1:author "awgymer" ;
+    schema1:description "Tandem repeat genotyping with long reads." ;
+    schema1:downloadUrl "https://github.com/google/googletest/archive/release-1.10.0.zip",
+        "https://github.com/gymrek-lab/LongTR/archive/refs/tags/v1.2.tar.gz" ;
+    schema1:identifier biotools:longtr ;
+    schema1:license "BSD-2-Clause" ;
+    schema1:maintainer "awgymer" ;
+    schema1:name "longtr" ;
+    schema1:softwareHelp "https://github.com/gymrek-lab/LongTR" ;
+    schema1:softwareVersion "1.2" ;
+    schema1:url "https://github.com/gymrek-lab/LongTR" .
 
 bioconda:lotus2 a schema1:SoftwareApplication ;
     schema1:author "nsoranzo" ;
@@ -11154,14 +11187,14 @@ bioconda:matchms a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1186/s13321-024-00878-1",
         "doi:10.21105/joss.02411" ;
     schema1:description "Python library for fuzzy comparison of mass spectrum data and other Python objects." ;
-    schema1:downloadUrl "https://pypi.org/packages/source/m/matchms/matchms-0.32.0.tar.gz" ;
+    schema1:downloadUrl "https://pypi.org/packages/source/m/matchms/matchms-0.33.1.tar.gz" ;
     schema1:identifier biotools:matchms ;
     schema1:license "Apache-2.0" ;
     schema1:maintainer "hechth",
         "maximskorik" ;
     schema1:name "matchms" ;
     schema1:softwareHelp "https://matchms.readthedocs.io/en/latest" ;
-    schema1:softwareVersion "0.32.0" ;
+    schema1:softwareVersion "0.33.1" ;
     schema1:url "https://github.com/matchms/matchms" .
 
 bioconda:maxquant a schema1:SoftwareApplication ;
@@ -11199,12 +11232,12 @@ bioconda:mcl a schema1:SoftwareApplication ;
 
 bioconda:medaka a schema1:SoftwareApplication ;
     schema1:description "A tool to create consensus sequences and variant calls from nanopore sequencing data using neural networks." ;
-    schema1:downloadUrl "https://pypi.org/packages/source/m/medaka/medaka-2.2.1.tar.gz" ;
+    schema1:downloadUrl "https://pypi.org/packages/source/m/medaka/medaka-2.2.2.tar.gz" ;
     schema1:identifier biotools:medaka ;
     schema1:license "Oxford Nanopore Technologies PLC. Public License Version 1.0" ;
     schema1:name "medaka" ;
-    schema1:softwareHelp "https://github.com/nanoporetech/medaka/blob/v2.2.1/README.md" ;
-    schema1:softwareVersion "2.2.1" ;
+    schema1:softwareHelp "https://github.com/nanoporetech/medaka/blob/v2.2.2/README.md" ;
+    schema1:softwareVersion "2.2.2" ;
     schema1:url "https://github.com/nanoporetech/medaka" .
 
 bioconda:megahit a schema1:SoftwareApplication ;
@@ -11288,13 +11321,12 @@ bioconda:mess a schema1:SoftwareApplication ;
 bioconda:metabat2 a schema1:SoftwareApplication ;
     schema1:citation "doi:10.7717/peerj.1165" ;
     schema1:description "Metagenome binning." ;
-    schema1:downloadUrl "https://bitbucket.org/berkeleylab/metabat/get/cdb66e9c2fab2cf11ee156ad2e7d7690fb7c8a26.tar.bz2",
-        "https://bitbucket.org/berkeleylab/metabat/get/v2.18.tar.bz2" ;
+    schema1:downloadUrl "https://bitbucket.org/berkeleylab/metabat/get/c869c524d0f1.zip" ;
     schema1:identifier biotools:MetaBAT_2 ;
     schema1:license "BSD-3-Clause-LBNL" ;
     schema1:name "metabat2" ;
     schema1:softwareHelp "https://bitbucket.org/berkeleylab/metabat/src/v2.18/README.md" ;
-    schema1:softwareVersion "2.18" ;
+    schema1:softwareVersion "2.18_23_gc869c52" ;
     schema1:url "https://bitbucket.org/berkeleylab/metabat" .
 
 bioconda:metabinkit a schema1:SoftwareApplication ;
@@ -11512,12 +11544,12 @@ bioconda:miniasm a schema1:SoftwareApplication ;
 bioconda:minimap2 a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1093/bioinformatics/bty191" ;
     schema1:description "A versatile pairwise aligner for genomic and spliced nucleotide sequences." ;
-    schema1:downloadUrl "https://github.com/lh3/minimap2/archive/v2.30.tar.gz" ;
+    schema1:downloadUrl "https://github.com/lh3/minimap2/archive/v2.31.tar.gz" ;
     schema1:identifier biotools:minimap2 ;
     schema1:license "MIT" ;
     schema1:name "minimap2" ;
     schema1:softwareHelp "https://lh3.github.io/minimap2/minimap2.html" ;
-    schema1:softwareVersion "2.3" ;
+    schema1:softwareVersion "2.31" ;
     schema1:url "https://github.com/lh3/minimap2" .
 
 bioconda:minipolish a schema1:SoftwareApplication ;
@@ -11592,11 +11624,11 @@ bioconda:mlrho a schema1:SoftwareApplication ;
 
 bioconda:mlst a schema1:SoftwareApplication ;
     schema1:description "Scan contig files against PubMLST typing schemes" ;
-    schema1:downloadUrl "https://github.com/tseemann/mlst/archive/v2.33.1.tar.gz" ;
+    schema1:downloadUrl "https://github.com/tseemann/mlst/archive/v2.35.0.tar.gz" ;
     schema1:identifier biotools:mlst ;
     schema1:license "GPL-2.0" ;
     schema1:name "mlst" ;
-    schema1:softwareVersion "2.33.1" ;
+    schema1:softwareVersion "2.35.0" ;
     schema1:url "https://github.com/tseemann/mlst" .
 
 bioconda:mmseqs2 a schema1:SoftwareApplication ;
@@ -11821,7 +11853,7 @@ bioconda:msmetaenhancer a schema1:SoftwareApplication ;
         "xtrojak" ;
     schema1:citation "doi:10.21105/joss.04494" ;
     schema1:description "MSMetaEnhancer is a Python tool that adds more annotations (e.g. SMILES, InChI, CAS number) to MSP files." ;
-    schema1:downloadUrl "https://pypi.io/packages/source/m/msmetaenhancer/msmetaenhancer-0.5.0.tar.gz" ;
+    schema1:downloadUrl "https://pypi.io/packages/source/m/msmetaenhancer/msmetaenhancer-0.5.1.tar.gz" ;
     schema1:identifier biotools:msmetaenhancer ;
     schema1:license "MIT" ;
     schema1:maintainer "hechth",
@@ -11829,7 +11861,7 @@ bioconda:msmetaenhancer a schema1:SoftwareApplication ;
         "xtrojak" ;
     schema1:name "msmetaenhancer" ;
     schema1:softwareHelp "https://msmetaenhancer.readthedocs.io" ;
-    schema1:softwareVersion "0.5.0" ;
+    schema1:softwareVersion "0.5.1" ;
     schema1:url "https://github.com/RECETOX/MSMetaEnhancer" .
 
 bioconda:mstmap a schema1:SoftwareApplication ;
@@ -11846,13 +11878,13 @@ bioconda:multiqc a schema1:SoftwareApplication ;
     schema1:author "ewels" ;
     schema1:citation "doi:10.1093/bioinformatics/btw354" ;
     schema1:description "Aggregate results from bioinformatics analyses across many samples into a single report." ;
-    schema1:downloadUrl "https://github.com/MultiQC/MultiQC/archive/v1.34.tar.gz" ;
+    schema1:downloadUrl "https://github.com/MultiQC/MultiQC/archive/v1.35.tar.gz" ;
     schema1:identifier biotools:multiqc ;
     schema1:license "GPL-3.0-or-later" ;
     schema1:maintainer "ewels" ;
     schema1:name "multiqc" ;
     schema1:softwareHelp "https://docs.seqera.io/multiqc/" ;
-    schema1:softwareVersion "1.34" ;
+    schema1:softwareVersion "1.35" ;
     schema1:url "https://seqera.io/multiqc" .
 
 bioconda:multiz a schema1:SoftwareApplication ;
@@ -12307,14 +12339,12 @@ bioconda:peakzilla a schema1:SoftwareApplication ;
     schema1:url "http://stark.imp.ac.at/data/peakzilla" .
 
 bioconda:pear a schema1:SoftwareApplication ;
-    schema1:author "mfansler" ;
     schema1:description "Paired-End reAd mergeR" ;
-    schema1:downloadUrl "https://depot.galaxyproject.org/software/pear/pear_0.9.6_src_all.tar.gz" ;
+    schema1:downloadUrl "https://www.h-its.org/index.php?eddfile=78401%3A15508%3A11&ttl=1778679892&file=11&token=20a12fe7135990add913733e95dcb2f41a5ba2c7e32a7e11e9cbcacec2cdb4f3&oiid=7655" ;
     schema1:identifier biotools:PEAR ;
     schema1:license "CC-BY-NC-SA-3.0" ;
-    schema1:maintainer "mfansler" ;
     schema1:name "pear" ;
-    schema1:softwareVersion "0.9.6" ;
+    schema1:softwareVersion "0.9.11" ;
     schema1:url "https://sco.h-its.org/exelixis/web/software/pear/" .
 
 bioconda:pecat a schema1:SoftwareApplication ;
@@ -12350,12 +12380,12 @@ bioconda:peptide-shaker a schema1:SoftwareApplication ;
 bioconda:percolator a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1007/s13361-016-1460-7" ;
     schema1:description "Semi-supervised learning for peptide identification from shotgun proteomics datasets." ;
-    schema1:downloadUrl "https://github.com/percolator/percolator/archive/refs/tags/rel-3-07-01.tar.gz" ;
+    schema1:downloadUrl "https://github.com/percolator/percolator/archive/refs/tags/rel-3-09.tar.gz" ;
     schema1:identifier biotools:Percolator ;
     schema1:license "Apache-2.0" ;
     schema1:name "percolator" ;
     schema1:softwareHelp "http://percolator.ms" ;
-    schema1:softwareVersion "3.7.1" ;
+    schema1:softwareVersion "3.9" ;
     schema1:url "https://github.com/percolator/percolator" .
 
 bioconda:perl-bio-cigar a schema1:SoftwareApplication ;
@@ -12455,13 +12485,13 @@ bioconda:phykit a schema1:SoftwareApplication ;
     schema1:author "pauldg" ;
     schema1:citation "doi:10.1093/bioinformatics/btab096" ;
     schema1:description "PhyKIT is a UNIX shell toolkit for processing and analyzing phylogenomic data." ;
-    schema1:downloadUrl "https://pypi.io/packages/source/p/phykit/phykit-2.1.90.tar.gz" ;
+    schema1:downloadUrl "https://pypi.io/packages/source/p/phykit/phykit-2.1.94.tar.gz" ;
     schema1:identifier biotools:phykit ;
     schema1:license "MIT" ;
     schema1:maintainer "pauldg" ;
     schema1:name "phykit" ;
     schema1:softwareHelp "https://jlsteenwyk.com/PhyKIT" ;
-    schema1:softwareVersion "2.1.90" ;
+    schema1:softwareVersion "2.1.94" ;
     schema1:url "https://github.com/jlsteenwyk/phykit" .
 
 bioconda:phylip a schema1:SoftwareApplication ;
@@ -12509,11 +12539,11 @@ bioconda:physher a schema1:SoftwareApplication ;
 bioconda:pia a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1021/acs.jproteome.5b00121" ;
     schema1:description "PIA is a toolbox for MS based protein inference and identification analysis." ;
-    schema1:downloadUrl "https://github.com/medbioinf/pia/releases/download/1.5.8/pia-1.5.8.zip" ;
+    schema1:downloadUrl "https://github.com/medbioinf/pia/releases/download/1.5.9/pia-1.5.9.zip" ;
     schema1:identifier biotools:pia ;
     schema1:license "BSD-3-Clause" ;
     schema1:name "pia" ;
-    schema1:softwareVersion "1.5.8" ;
+    schema1:softwareVersion "1.5.9" ;
     schema1:url "https://github.com/medbioinf/pia" .
 
 bioconda:piler-cr a schema1:SoftwareApplication ;
@@ -12569,15 +12599,15 @@ bioconda:plannotate a schema1:SoftwareApplication ;
     schema1:author "mmcguffi",
         "rpetit3" ;
     schema1:description "Webserver and command line tool for annotating engineered plasmids." ;
-    schema1:downloadUrl "https://github.com/mmcguffi/plannotate/archive/refs/tags/v1.2.4.tar.gz",
-        "https://github.com/mmcguffi/plannotate/releases/download/v1.2.0/BLAST_dbs.tar.gz" ;
+    schema1:downloadUrl "https://github.com/mmcguffi/plannotate/archive/refs/tags/v1.2.5.tar.gz",
+        "https://github.com/mmcguffi/plannotate/releases/download/v1.2.5/BLAST_dbs.tar.gz" ;
     schema1:identifier biotools:plannotate ;
     schema1:license "GPL-3.0-or-later" ;
     schema1:maintainer "mmcguffi",
         "rpetit3" ;
     schema1:name "plannotate" ;
-    schema1:softwareHelp "https://github.com/mmcguffi/pLannotate/blob/v1.2.4/README.md" ;
-    schema1:softwareVersion "1.2.4" ;
+    schema1:softwareHelp "https://github.com/mmcguffi/pLannotate/blob/v1.2.5/README.md" ;
+    schema1:softwareVersion "1.2.5" ;
     schema1:url "https://github.com/mmcguffi/pLannotate" .
 
 bioconda:plass a schema1:SoftwareApplication ;
@@ -12899,25 +12929,25 @@ bioconda:pyfasta a schema1:SoftwareApplication ;
 bioconda:pyfastx a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1093/bib/bbaa368" ;
     schema1:description "pyfastx is a python module for fast random access to sequences from plain and gzipped FASTA/Q file." ;
-    schema1:downloadUrl "https://github.com/lmdu/pyfastx/archive/2.3.0.tar.gz" ;
+    schema1:downloadUrl "https://github.com/lmdu/pyfastx/archive/2.3.1.tar.gz" ;
     schema1:identifier biotools:pyfastx ;
     schema1:license "MIT" ;
     schema1:name "pyfastx" ;
     schema1:softwareHelp "https://pyfastx.readthedocs.io/en/latest" ;
-    schema1:softwareVersion "2.3.0" ;
+    schema1:softwareVersion "2.3.1" ;
     schema1:url "https://github.com/lmdu/pyfastx" .
 
 bioconda:pyhmmer a schema1:SoftwareApplication ;
     schema1:author "althonos" ;
     schema1:citation "doi:10.1093/bioinformatics/btad214" ;
     schema1:description "Cython bindings and Python interface to HMMER3." ;
-    schema1:downloadUrl "https://pypi.org/packages/source/p/pyhmmer/pyhmmer-0.12.0.tar.gz" ;
+    schema1:downloadUrl "https://pypi.org/packages/source/p/pyhmmer/pyhmmer-0.12.1.tar.gz" ;
     schema1:identifier biotools:pyhmmer ;
     schema1:license "MIT" ;
     schema1:maintainer "althonos" ;
     schema1:name "pyhmmer" ;
     schema1:softwareHelp "https://pyhmmer.readthedocs.io" ;
-    schema1:softwareVersion "0.12.0" ;
+    schema1:softwareVersion "0.12.1" ;
     schema1:url "https://github.com/althonos/pyhmmer" .
 
 bioconda:pyopenms a schema1:SoftwareApplication ;
@@ -12945,11 +12975,11 @@ bioconda:pyranges a schema1:SoftwareApplication ;
 bioconda:pysam a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1093/bioinformatics/btp352" ;
     schema1:description "Pysam is a Python module for reading and manipulating SAM/BAM/VCF/BCF files. It's a lightweight wrapper of the htslib C-API, the same one that powers samtools, bcftools, and tabix." ;
-    schema1:downloadUrl "https://github.com/pysam-developers/pysam/archive/v0.23.3.tar.gz" ;
+    schema1:downloadUrl "https://github.com/pysam-developers/pysam/archive/v0.24.0.tar.gz" ;
     schema1:identifier biotools:pysam ;
     schema1:license "MIT" ;
     schema1:name "pysam" ;
-    schema1:softwareVersion "0.23.3" ;
+    schema1:softwareVersion "0.24.0" ;
     schema1:url "https://github.com/pysam-developers/pysam" .
 
 bioconda:pysamstats a schema1:SoftwareApplication ;
@@ -13236,11 +13266,11 @@ bioconda:raxml a schema1:SoftwareApplication ;
 bioconda:raxml-ng a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1093/bioinformatics/btz305" ;
     schema1:description "RAxML Next Generation: faster, easier-to-use and more flexible." ;
-    schema1:downloadUrl "https://github.com/amkozlov/raxml-ng/releases/download/2.0.1/raxml-ng_v2.0.1_source.zip" ;
+    schema1:downloadUrl "https://github.com/amkozlov/raxml-ng/releases/download/2.0.2/raxml-ng_v2.0.2_source.zip" ;
     schema1:identifier biotools:RAxML-NG ;
     schema1:license "AGPL-3.0-or-later" ;
     schema1:name "raxml-ng" ;
-    schema1:softwareVersion "2.0.1" ;
+    schema1:softwareVersion "2.0.2" ;
     schema1:url "https://github.com/amkozlov/raxml-ng" .
 
 bioconda:ray a schema1:SoftwareApplication ;
@@ -13339,23 +13369,27 @@ bioconda:repdenovo a schema1:SoftwareApplication ;
     schema1:url "https://github.com/Reedwarbler/REPdenovo" .
 
 bioconda:repeatmasker a schema1:SoftwareApplication ;
+    schema1:author "TobyBaril",
+        "mencian" ;
     schema1:description "RepeatMasker is a program that screens DNA sequences for interspersed repeats and low complexity DNA sequences." ;
-    schema1:downloadUrl "https://www.repeatmasker.org/RepeatMasker/RepeatMasker-4.2.3.tar.gz" ;
+    schema1:downloadUrl "https://www.repeatmasker.org/RepeatMasker/RepeatMasker-4.2.4.tar.gz" ;
     schema1:identifier biotools:repeatmasker ;
     schema1:license "Open Software License v2.1" ;
+    schema1:maintainer "TobyBaril",
+        "mencian" ;
     schema1:name "repeatmasker" ;
     schema1:softwareHelp "https://www.repeatmasker.org/RepeatMasker" ;
-    schema1:softwareVersion "4.2.3" ;
+    schema1:softwareVersion "4.2.4" ;
     schema1:url "https://www.repeatmasker.org/RepeatMasker" .
 
 bioconda:repeatmodeler a schema1:SoftwareApplication ;
     schema1:description "RepeatModeler is a de-novo repeat family identification and modeling package." ;
-    schema1:downloadUrl "https://github.com/Dfam-consortium/RepeatModeler/archive/refs/tags/2.0.7.tar.gz" ;
+    schema1:downloadUrl "https://github.com/Dfam-consortium/RepeatModeler/archive/refs/tags/2.0.8.tar.gz" ;
     schema1:identifier biotools:RepeatModeler ;
     schema1:license "Open Software License v2.1" ;
     schema1:name "repeatmodeler" ;
     schema1:softwareHelp "https://www.repeatmasker.org/RepeatModeler" ;
-    schema1:softwareVersion "2.0.7" ;
+    schema1:softwareVersion "2.0.8" ;
     schema1:url "https://www.repeatmasker.org/RepeatModeler" .
 
 bioconda:repeatscout a schema1:SoftwareApplication ;
@@ -13431,15 +13465,17 @@ bioconda:rmap a schema1:SoftwareApplication ;
     schema1:url "http://smithlabresearch.org/software/rmap/" .
 
 bioconda:rmblast a schema1:SoftwareApplication ;
-    schema1:author "mencian" ;
+    schema1:author "TobyBaril",
+        "mencian" ;
     schema1:description "RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST+ suite." ;
-    schema1:downloadUrl "https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.14.1/ncbi-blast-2.14.1+-src.tar.gz" ;
+    schema1:downloadUrl "https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.17.0/ncbi-blast-2.17.0+-src.tar.gz" ;
     schema1:identifier biotools:rmblast ;
     schema1:license "OSL-2.1" ;
-    schema1:maintainer "mencian" ;
+    schema1:maintainer "TobyBaril",
+        "mencian" ;
     schema1:name "rmblast" ;
     schema1:softwareHelp "https://www.repeatmasker.org/rmblast" ;
-    schema1:softwareVersion "2.14.1" ;
+    schema1:softwareVersion "2.17.0" ;
     schema1:url "https://www.repeatmasker.org/rmblast" .
 
 bioconda:rna-seqc a schema1:SoftwareApplication ;
@@ -13602,16 +13638,16 @@ bioconda:salmon a schema1:SoftwareApplication ;
         "mjsteinbaugh",
         "rob-p" ;
     schema1:citation "doi:10.1038/nmeth.4197" ;
-    schema1:description "Highly-accurate & wicked fast transcript-level quantification from RNA-seq reads using selective alignment." ;
-    schema1:downloadUrl "https://github.com/COMBINE-lab/salmon/archive/refs/tags/v1.11.4.tar.gz" ;
+    schema1:description "Highly-accurate & wicked fast transcript-level quantification from RNA-seq reads (salmon 2.0, Rust)." ;
+    schema1:downloadUrl "https://github.com/COMBINE-lab/salmon/archive/refs/tags/v2.3.1.tar.gz" ;
     schema1:identifier biotools:salmon ;
-    schema1:license "GPL-3.0-or-later" ;
+    schema1:license "BSD-3-Clause" ;
     schema1:maintainer "k3yavi",
         "mjsteinbaugh",
         "rob-p" ;
     schema1:name "salmon" ;
     schema1:softwareHelp "https://combine-lab.github.io/salmon" ;
-    schema1:softwareVersion "1.11.4" ;
+    schema1:softwareVersion "2.3.1" ;
     schema1:url "https://github.com/COMBINE-lab/salmon" .
 
 bioconda:sambamba a schema1:SoftwareApplication ;
@@ -13716,13 +13752,13 @@ bioconda:segway a schema1:SoftwareApplication ;
     schema1:author "ericr86" ;
     schema1:citation "doi:10.1093/bioinformatics/btx603" ;
     schema1:description "A tool for easy pattern discovery and identification in functional genomics data." ;
-    schema1:downloadUrl "https://pypi.org/packages/source/s/segway/segway-3.0.5.tar.gz" ;
+    schema1:downloadUrl "https://pypi.org/packages/source/s/segway/segway-3.0.7.tar.gz" ;
     schema1:identifier biotools:segway ;
     schema1:license "GPL-2.0-or-later" ;
     schema1:maintainer "ericr86" ;
     schema1:name "segway" ;
     schema1:softwareHelp "https://segway.readthedocs.io/en/latest" ;
-    schema1:softwareVersion "3.0.5" ;
+    schema1:softwareVersion "3.0.7" ;
     schema1:url "https://segway.hoffmanlab.org" .
 
 bioconda:selscan a schema1:SoftwareApplication ;
@@ -13741,14 +13777,14 @@ bioconda:semibin a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1038/s41467-022-29843-y",
         "doi:10.1093/bioinformatics/btad209" ;
     schema1:description "Metagenomic binning with siamese neural networks" ;
-    schema1:downloadUrl "https://pypi.io/packages/source/S/SemiBin/semibin-2.2.1.tar.gz" ;
+    schema1:downloadUrl "https://pypi.io/packages/source/S/SemiBin/semibin-2.3.0.tar.gz" ;
     schema1:identifier biotools:semibin ;
     schema1:license "MIT" ;
     schema1:maintainer "luispedro",
         "psj1997" ;
     schema1:name "semibin" ;
     schema1:softwareHelp "https://semibin.readthedocs.io/en/latest/" ;
-    schema1:softwareVersion "2.2.1" ;
+    schema1:softwareVersion "2.3.0" ;
     schema1:url "https://github.com/BigDataBiology/SemiBin" .
 
 bioconda:sepp a schema1:SoftwareApplication ;
@@ -14020,12 +14056,12 @@ bioconda:slimm a schema1:SoftwareApplication ;
 bioconda:slivar a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1186/s13073-020-00761-2" ;
     schema1:description "filter/annotate variants in VCF/BCF format with simple expressions." ;
-    schema1:downloadUrl "https://github.com/brentp/slivar/archive/refs/tags/v0.3.3.tar.gz" ;
+    schema1:downloadUrl "https://github.com/brentp/slivar/archive/refs/tags/v0.3.4.tar.gz" ;
     schema1:identifier biotools:somalier ;
     schema1:license "MIT" ;
     schema1:name "slivar" ;
-    schema1:softwareHelp "https://github.com/brentp/slivar/blob/v0.3.3/README.md" ;
-    schema1:softwareVersion "0.3.3" ;
+    schema1:softwareHelp "https://github.com/brentp/slivar/blob/v0.3.4/README.md" ;
+    schema1:softwareVersion "0.3.4" ;
     schema1:url "https://github.com/brentp/slivar" .
 
 bioconda:smaca a schema1:SoftwareApplication ;
@@ -14058,14 +14094,14 @@ bioconda:snakemake a schema1:SoftwareApplication ;
         "johanneskoester" ;
     schema1:citation "doi:10.1093/bioinformatics/bts480" ;
     schema1:description "A popular workflow management system aiming at full in-silico reproducibility." ;
-    schema1:downloadUrl "https://pypi.io/packages/source/s/snakemake/snakemake-9.19.0.tar.gz" ;
+    schema1:downloadUrl "https://pypi.io/packages/source/s/snakemake/snakemake-9.23.1.tar.gz" ;
     schema1:identifier biotools:snakemake ;
     schema1:license "MIT" ;
     schema1:maintainer "corneliusroemer",
         "johanneskoester" ;
     schema1:name "snakemake" ;
     schema1:softwareHelp "https://snakemake.readthedocs.io/en/stable" ;
-    schema1:softwareVersion "9.19.0" ;
+    schema1:softwareVersion "9.23.1" ;
     schema1:url "https://snakemake.github.io" .
 
 bioconda:snap a schema1:SoftwareApplication ;
@@ -14082,12 +14118,12 @@ bioconda:sniffles a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1038/s41587-023-02024-y",
         "doi:10.1038/s41592-018-0001-7" ;
     schema1:description "Sniffles is a structural variation caller using third generation sequencing (PacBio or Oxford Nanopore)." ;
-    schema1:downloadUrl "https://pypi.org/packages/source/s/sniffles/sniffles-2.7.5.tar.gz" ;
+    schema1:downloadUrl "https://pypi.org/packages/source/s/sniffles/sniffles-2.8.0.tar.gz" ;
     schema1:identifier biotools:sniffles ;
     schema1:license "MIT" ;
     schema1:name "sniffles" ;
     schema1:softwareHelp "https://github.com/fritzsedlazeck/Sniffles/wiki" ;
-    schema1:softwareVersion "2.7.5" ;
+    schema1:softwareVersion "2.8.0" ;
     schema1:url "https://github.com/fritzsedlazeck/Sniffles" .
 
 bioconda:snippy a schema1:SoftwareApplication ;
@@ -14222,7 +14258,7 @@ bioconda:spades a schema1:SoftwareApplication ;
         "doi:10.1093/gigascience/giz100",
         "doi:10.1101/gr.213959.116" ;
     schema1:description "SPAdes (St. Petersburg genome assembler) is intended for both standard isolates and single-cell MDA bacteria assemblies." ;
-    schema1:downloadUrl "https://github.com/ablab/spades/releases/download/v4.2.0/SPAdes-4.2.0.tar.gz" ;
+    schema1:downloadUrl "https://github.com/ablab/spades/releases/download/v4.3.0/SPAdes-4.3.0.tar.gz" ;
     schema1:identifier biotools:spades ;
     schema1:license "GPL-2.0-only" ;
     schema1:maintainer "chrisjackson-pellicle",
@@ -14230,7 +14266,7 @@ bioconda:spades a schema1:SoftwareApplication ;
         "notestaff" ;
     schema1:name "spades" ;
     schema1:softwareHelp "https://ablab.github.io/spades" ;
-    schema1:softwareVersion "4.2.0" ;
+    schema1:softwareVersion "4.3.0" ;
     schema1:url "https://github.com/ablab/spades" .
 
 bioconda:spapros a schema1:SoftwareApplication ;
@@ -14443,6 +14479,19 @@ bioconda:super_distance a schema1:SoftwareApplication ;
     schema1:softwareVersion "1.1.0" ;
     schema1:url "https://github.com/quadram-institute-bioscience/super_distance" .
 
+bioconda:svanna a schema1:SoftwareApplication ;
+    schema1:author "nourmahfel" ;
+    schema1:citation "doi:10.1186/s13073-022-01046-6" ;
+    schema1:description "Efficient and accurate pathogenicity prediction for coding and regulatory structural variants in long-read genome sequencing" ;
+    schema1:downloadUrl "https://github.com/monarch-initiative/SvAnna/releases/download/v1.2.0/svanna-cli-1.2.0-distribution.zip" ;
+    schema1:identifier biotools:svanna ;
+    schema1:license "LicenseRef-Jackson-Laboratory-NonCommercial" ;
+    schema1:maintainer "nourmahfel" ;
+    schema1:name "svanna" ;
+    schema1:softwareHelp "https://svanna.readthedocs.io" ;
+    schema1:softwareVersion "1.2.0" ;
+    schema1:url "https://github.com/monarch-initiative/SvAnna" .
+
 bioconda:svdss a schema1:SoftwareApplication ;
     schema1:author "ldenti" ;
     schema1:citation "doi:10.1038/s41592-022-01674-1" ;
@@ -14459,12 +14508,12 @@ bioconda:svdss a schema1:SoftwareApplication ;
 bioconda:swarm a schema1:SoftwareApplication ;
     schema1:citation "doi:10.7717/peerj.593" ;
     schema1:description "A robust and fast clustering method for amplicon-based studies." ;
-    schema1:downloadUrl "https://github.com/torognes/swarm/archive/v3.1.6.tar.gz" ;
+    schema1:downloadUrl "https://github.com/torognes/swarm/archive/v3.1.7.tar.gz" ;
     schema1:identifier biotools:swarm ;
     schema1:license "AGPL-3.0-or-later" ;
     schema1:name "swarm" ;
-    schema1:softwareHelp "https://github.com/torognes/swarm/blob/v3.1.6/man/swarm_manual.pdf" ;
-    schema1:softwareVersion "3.1.6" ;
+    schema1:softwareHelp "https://github.com/torognes/swarm/blob/v3.1.7/man/swarm_manual.pdf" ;
+    schema1:softwareVersion "3.1.7" ;
     schema1:url "https://github.com/torognes/swarm" .
 
 bioconda:swipe a schema1:SoftwareApplication ;
@@ -14591,12 +14640,12 @@ bioconda:thesias a schema1:SoftwareApplication ;
 bioconda:tiberius a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1093/bioinformatics/btae685" ;
     schema1:description "Tiberius is a deep learning gene-finder." ;
-    schema1:downloadUrl "https://github.com/Gaius-Augustus/Tiberius/archive/refs/tags/v1.1.8.tar.gz" ;
+    schema1:downloadUrl "https://github.com/Gaius-Augustus/Tiberius/archive/refs/tags/v2.0.6.tar.gz" ;
     schema1:identifier biotools:tiberius ;
     schema1:license "MIT" ;
     schema1:name "tiberius" ;
-    schema1:softwareHelp "https://github.com/Gaius-Augustus/Tiberius/blob/v1.1.8/README.md" ;
-    schema1:softwareVersion "1.1.8" ;
+    schema1:softwareHelp "https://github.com/Gaius-Augustus/Tiberius/blob/v2.0.6/README.md" ;
+    schema1:softwareVersion "2.0.6" ;
     schema1:url "https://github.com/Gaius-Augustus/Tiberius" .
 
 bioconda:tmalign a schema1:SoftwareApplication ;
@@ -14614,12 +14663,12 @@ bioconda:tmalign a schema1:SoftwareApplication ;
 bioconda:tn93 a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1093/molbev/msy016" ;
     schema1:description "This is a simple program meant to compute pairwise distances between aligned nucleotide sequences in sequential FASTA format using the Tamura Nei 93 distance." ;
-    schema1:downloadUrl "https://github.com/veg/tn93/archive/v1.0.15.tar.gz" ;
+    schema1:downloadUrl "https://github.com/veg/tn93/archive/v1.0.16.tar.gz" ;
     schema1:identifier biotools:tn93 ;
     schema1:license "MIT" ;
     schema1:name "tn93" ;
-    schema1:softwareHelp "https://github.com/veg/tn93/blob/v1.0.15/README.md" ;
-    schema1:softwareVersion "1.0.15" ;
+    schema1:softwareHelp "https://github.com/veg/tn93/blob/v1.0.16/README.md" ;
+    schema1:softwareVersion "1.0.16" ;
     schema1:url "https://github.com/veg/tn93" .
 
 bioconda:tobias a schema1:SoftwareApplication ;
@@ -14667,12 +14716,12 @@ bioconda:tophat-recondition a schema1:SoftwareApplication ;
 
 bioconda:toulligqc a schema1:SoftwareApplication ;
     schema1:description "A post sequencing QC tool for Oxford Nanopore sequencers." ;
-    schema1:downloadUrl "https://pypi.org/packages/source/t/toulligqc/toulligqc-2.8.4.tar.gz" ;
+    schema1:downloadUrl "https://pypi.org/packages/source/t/toulligqc/toulligqc-2.9.1.tar.gz" ;
     schema1:identifier biotools:ToulligQC ;
     schema1:license "GPL-3.0-or-later" ;
     schema1:name "toulligqc" ;
-    schema1:softwareHelp "https://github.com/GenomiqueENS/toulligQC/blob/v2.8.4/README.md" ;
-    schema1:softwareVersion "2.8.4" ;
+    schema1:softwareHelp "https://github.com/GenomiqueENS/toulligQC/blob/v2.9.1/README.md" ;
+    schema1:softwareVersion "2.9.1" ;
     schema1:url "https://github.com/GenomicParisCentre/toulligQC" .
 
 bioconda:tracer a schema1:SoftwareApplication ;
@@ -14725,6 +14774,16 @@ bioconda:translatorx a schema1:SoftwareApplication ;
     schema1:softwareVersion "1.1" ;
     schema1:url "http://pc16141.mncn.csic.es/" .
 
+bioconda:transvar a schema1:SoftwareApplication ;
+    schema1:description "Transcript-based variant annotator." ;
+    schema1:downloadUrl "https://pypi.org/packages/source/t/transvar/TransVar-2.5.10.20211024.tar.gz" ;
+    schema1:identifier biotools:transvar ;
+    schema1:license "MIT" ;
+    schema1:name "transvar" ;
+    schema1:softwareHelp "https://transvar.readthedocs.io" ;
+    schema1:softwareVersion "2.5.10.20211024" ;
+    schema1:url "https://github.com/zwdzwd/transvar" .
+
 bioconda:treemix a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1371/journal.pgen.1002967" ;
     schema1:description "TreeMix is a method for inferring the patterns of population splits and mixtures in the history of a set of populations." ;
@@ -14770,14 +14829,15 @@ bioconda:trimal a schema1:SoftwareApplication ;
     schema1:url "https://trimal.readthedocs.io" .
 
 bioconda:trimmomatic a schema1:SoftwareApplication ;
-    schema1:citation "doi:10.1093/bioinformatics/btu170" ;
+    schema1:citation "doi:10.1093/bioinformatics/btag331",
+        "doi:10.1093/bioinformatics/btu170" ;
     schema1:description "A flexible read trimming tool for Illumina NGS data." ;
-    schema1:downloadUrl "https://github.com/usadellab/Trimmomatic/releases/download/v0.40/Trimmomatic-0.40.zip" ;
+    schema1:downloadUrl "https://github.com/usadellab/Trimmomatic/releases/download/v0.41/Trimmomatic-0.41.zip" ;
     schema1:identifier biotools:trimmomatic ;
     schema1:license "GPL-3.0-or-later" ;
     schema1:name "trimmomatic" ;
     schema1:softwareHelp "https://www.plabipd.de/trimmomatic_main.html" ;
-    schema1:softwareVersion "0.4" ;
+    schema1:softwareVersion "0.41" ;
     schema1:url "https://www.plabipd.de/trimmomatic_main.html" .
 
 bioconda:trinity a schema1:SoftwareApplication ;
@@ -17755,12 +17815,12 @@ bioconda:varscan a schema1:SoftwareApplication ;
 bioconda:vcfanno a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1186/s13059-016-0973-5" ;
     schema1:description "Annotate a VCF with other VCFs/BEDs/tabixed files." ;
-    schema1:downloadUrl "https://github.com/brentp/vcfanno/archive/refs/tags/v0.3.7.tar.gz" ;
+    schema1:downloadUrl "https://github.com/brentp/vcfanno/archive/refs/tags/v0.3.9.tar.gz" ;
     schema1:identifier biotools:vcfanno ;
     schema1:license "MIT" ;
     schema1:name "vcfanno" ;
-    schema1:softwareHelp "https://github.com/brentp/vcfanno/blob/v0.3.7/README.md" ;
-    schema1:softwareVersion "0.3.7" ;
+    schema1:softwareHelp "https://github.com/brentp/vcfanno/blob/v0.3.9/README.md" ;
+    schema1:softwareVersion "0.3.9" ;
     schema1:url "https://github.com/brentp/vcfanno" .
 
 bioconda:vcflib a schema1:SoftwareApplication ;
@@ -17817,12 +17877,12 @@ bioconda:verifybamid a schema1:SoftwareApplication ;
 bioconda:verifybamid2 a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1101/gr.246934.118" ;
     schema1:description "A robust tool for DNA contamination estimation from sequence reads using ancestry-agnostic method." ;
-    schema1:downloadUrl "https://github.com/Griffan/VerifyBamID/archive/refs/tags/V2.0.2.tar.gz" ;
+    schema1:downloadUrl "https://github.com/Griffan/VerifyBamID/archive/refs/tags/v2.0.3.tar.gz" ;
     schema1:identifier biotools:verifybamid ;
     schema1:license "MIT" ;
     schema1:name "verifybamid2" ;
     schema1:softwareHelp "https://griffan.github.io/VerifyBamID" ;
-    schema1:softwareVersion "2.0.2" ;
+    schema1:softwareVersion "2.0.3" ;
     schema1:url "https://github.com/Griffan/VerifyBamID" .
 
 bioconda:veryfasttree a schema1:SoftwareApplication ;
@@ -17844,11 +17904,11 @@ bioconda:veryfasttree a schema1:SoftwareApplication ;
 bioconda:viralmsa a schema1:SoftwareApplication ;
     schema1:citation "doi:10.1093/bioinformatics/btaa743" ;
     schema1:description "Reference-guided multiple sequence alignment of viral genomes" ;
-    schema1:downloadUrl "https://github.com/niemasd/ViralMSA/archive/refs/tags/1.1.46.tar.gz" ;
+    schema1:downloadUrl "https://github.com/niemasd/ViralMSA/archive/refs/tags/1.1.48.tar.gz" ;
     schema1:identifier biotools:viralmsa ;
     schema1:license "GNU General Public License v3 (GPLv3)" ;
     schema1:name "viralmsa" ;
-    schema1:softwareVersion "1.1.46" ;
+    schema1:softwareVersion "1.1.48" ;
     schema1:url "https://github.com/niemasd/ViralMSA" .
 
 bioconda:vmatch a schema1:SoftwareApplication ;
@@ -17875,12 +17935,12 @@ bioconda:vsclust a schema1:SoftwareApplication ;
 bioconda:vsearch a schema1:SoftwareApplication ;
     schema1:citation "doi:10.7717/peerj.2584" ;
     schema1:description "A versatile open source tool for metagenomics (USEARCH alternative)." ;
-    schema1:downloadUrl "https://github.com/torognes/vsearch/archive/v2.30.6.tar.gz" ;
+    schema1:downloadUrl "https://github.com/torognes/vsearch/archive/v2.31.0.tar.gz" ;
     schema1:identifier biotools:vsearch ;
     schema1:license "GPL-3.0-or-later OR BSD-2-Clause" ;
     schema1:name "vsearch" ;
     schema1:softwareHelp "https://torognes.github.io/vsearch" ;
-    schema1:softwareVersion "2.30.6" ;
+    schema1:softwareVersion "2.31.0" ;
     schema1:url "https://github.com/torognes/vsearch" .
 
 bioconda:weeder a schema1:SoftwareApplication ;
@@ -18008,13 +18068,13 @@ bioconda:zdb a schema1:SoftwareApplication ;
     schema1:author "bkm",
         "njohner" ;
     schema1:description "zDB is both a bacterial comparative genomics pipeline and a tool to visualize the results" ;
-    schema1:downloadUrl "https://github.com/metagenlab/zDB/archive/refs/tags/v1.3.11.tar.gz" ;
+    schema1:downloadUrl "https://github.com/metagenlab/zDB/archive/refs/tags/v1.3.12.tar.gz" ;
     schema1:identifier biotools:zDB ;
     schema1:license "MIT" ;
     schema1:maintainer "bkm",
         "njohner" ;
     schema1:name "zdb" ;
     schema1:softwareHelp "https://zdb.readthedocs.io/en/latest/" ;
-    schema1:softwareVersion "1.3.11" ;
+    schema1:softwareVersion "1.3.12" ;
     schema1:url "https://github.com/metagenlab/zDB/" .
 
