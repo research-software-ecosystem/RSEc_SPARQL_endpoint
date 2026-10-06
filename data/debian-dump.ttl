@@ -1,5 +1,4 @@
 @prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
-@prefix bioschemas: <http://bioschemas.org/> .
 @prefix biotools: <https://bio.tools/> .
 @prefix debianmed: <https://salsa.debian.org/med-team/> .
 @prefix edam: <http://edamontology.org/> .
@@ -37,8 +36,6 @@ debianmed:alter-sequence-alignment a schema1:SoftwareApplication ;
     schema1:url "http://sing.ei.uvigo.es/ALTER/" .
 
 debianmed:ampliconnoise a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_0924 ;
-    bioschemas:output edam:data_2044 ;
     schema1:additionalType edam:data_0924,
         edam:data_2044 ;
     schema1:applicationSubCategory edam:topic_3168 ;
@@ -54,8 +51,6 @@ debianmed:ampliconnoise a schema1:SoftwareApplication ;
     schema1:url "https://github.com/lanzen/ampliconnoise" .
 
 debianmed:andi a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044 ;
-    bioschemas:output edam:data_0870 ;
     schema1:additionalType edam:data_0870,
         edam:data_2044 ;
     schema1:applicationSubCategory edam:topic_3293 ;
@@ -80,10 +75,6 @@ debianmed:apollo a schema1:SoftwareApplication ;
     schema1:url "http://genomearchitect.org/" .
 
 debianmed:artemis a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044 ;
-    bioschemas:output edam:data_1270,
-        edam:data_2044,
-        edam:data_2969 ;
     schema1:additionalType edam:data_1270,
         edam:data_2044,
         edam:data_2969 ;
@@ -170,8 +161,6 @@ debianmed:bandage a schema1:SoftwareApplication ;
     schema1:url "https://rrwick.github.io/Bandage" .
 
 debianmed:barrnap a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044 ;
-    bioschemas:output edam:data_1255 ;
     schema1:additionalType edam:data_1255,
         edam:data_2044 ;
     schema1:applicationSubCategory edam:topic_0659 ;
@@ -382,17 +371,6 @@ debianmed:blat a schema1:SoftwareApplication ;
     schema1:url "http://genome.ucsc.edu/cgi-bin/hgBlat" .
 
 debianmed:bowtie a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2975,
-        edam:data_3210,
-        edam:format_1929,
-        edam:format_1930,
-        edam:format_1964 ;
-    bioschemas:output edam:data_0867,
-        edam:data_2975,
-        edam:data_3210,
-        edam:format_1929,
-        edam:format_1964,
-        edam:format_2573 ;
     schema1:additionalType edam:data_0867,
         edam:data_2975,
         edam:data_3210 ;
@@ -428,18 +406,6 @@ debianmed:bowtie a schema1:SoftwareApplication ;
     schema1:url "https://bowtie-bio.sourceforge.net/" .
 
 debianmed:bowtie2 a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2975,
-        edam:data_3210,
-        edam:format_1929,
-        edam:format_1930,
-        edam:format_1964 ;
-    bioschemas:output edam:data_0867,
-        edam:data_2975,
-        edam:data_3210,
-        edam:format_1964,
-        edam:format_2573,
-        edam:format_3484,
-        edam:format_3491 ;
     schema1:additionalType edam:data_0867,
         edam:data_2975,
         edam:data_3210 ;
@@ -578,10 +544,6 @@ debianmed:canu a schema1:SoftwareApplication ;
     schema1:url "https://canu.readthedocs.org/en/latest/" .
 
 debianmed:cd-hit a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2975,
-        edam:format_1929,
-        edam:format_1930 ;
-    bioschemas:output edam:format_1929 ;
     schema1:additionalType edam:data_2975 ;
     schema1:applicationSubCategory edam:topic_0622 ;
     schema1:citation "doi:10.1093/bioinformatics/btl158" ;
@@ -659,12 +621,6 @@ debianmed:clonalorigin a schema1:SoftwareApplication ;
     schema1:url "https://github.com/xavierdidelot/clonalorigin" .
 
 debianmed:clustalo a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044,
-        edam:data_3271 ;
-    bioschemas:output edam:data_0872,
-        edam:data_1916,
-        edam:operation_2928,
-        edam:topic_0083 ;
     schema1:additionalType edam:data_0872,
         edam:data_1916,
         edam:data_2044,
@@ -686,10 +642,6 @@ debianmed:clustalo a schema1:SoftwareApplication ;
     schema1:url "http://www.clustal.org/omega/" .
 
 debianmed:clustalw a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044 ;
-    bioschemas:output edam:data_0863,
-        edam:operation_0292,
-        edam:topic_0182 ;
     schema1:additionalType edam:data_0863,
         edam:data_2044,
         edam:operation_0292,
@@ -720,10 +672,6 @@ debianmed:clustalw a schema1:SoftwareApplication ;
     schema1:url "http://www.clustal.org/clustal2/" .
 
 debianmed:clustalx a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044 ;
-    bioschemas:output edam:data_0863,
-        edam:operation_0292,
-        edam:topic_0182 ;
     schema1:additionalType edam:data_0863,
         edam:data_2044,
         edam:operation_0292,
@@ -766,8 +714,6 @@ debianmed:cnvkit a schema1:SoftwareApplication ;
     schema1:url "https://cnvkit.readthedocs.org" .
 
 debianmed:condetri a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044 ;
-    bioschemas:output edam:data_2044 ;
     schema1:additionalType edam:data_2044 ;
     schema1:applicationSubCategory edam:topic_3168 ;
     schema1:citation "doi:10.1371/journal.pone.0026314" ;
@@ -1011,8 +957,6 @@ debianmed:fastml a schema1:SoftwareApplication ;
     schema1:url "http://fastml.tau.ac.il/" .
 
 debianmed:fastqc a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044 ;
-    bioschemas:output edam:data_2048 ;
     schema1:additionalType edam:data_2044,
         edam:data_2048 ;
     schema1:applicationSubCategory edam:topic_3168 ;
@@ -1499,8 +1443,6 @@ debianmed:khmer a schema1:SoftwareApplication ;
     schema1:url "https://khmer.readthedocs.org" .
 
 debianmed:kmc a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044 ;
-    bioschemas:output edam:data_1266 ;
     schema1:additionalType edam:data_1266,
         edam:data_2044 ;
     schema1:applicationSubCategory edam:topic_0157 ;
@@ -1796,13 +1738,6 @@ debianmed:mindthegap a schema1:SoftwareApplication ;
     schema1:url "https://github.com/GATB/MindTheGap" .
 
 debianmed:minia a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_1916,
-        edam:data_2044,
-        edam:operation_2928,
-        edam:topic_0083 ;
-    bioschemas:output edam:data_0925,
-        edam:operation_0310,
-        edam:topic_0196 ;
     schema1:additionalType edam:data_0925,
         edam:data_1916,
         edam:data_2044,
@@ -1868,8 +1803,6 @@ debianmed:mosdepth a schema1:SoftwareApplication ;
     schema1:url "https://github.com/brentp/mosdepth" .
 
 debianmed:mothur a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044 ;
-    bioschemas:output edam:data_2048 ;
     schema1:additionalType edam:data_2044,
         edam:data_2048 ;
     schema1:applicationSubCategory edam:topic_3697 ;
@@ -1926,12 +1859,6 @@ debianmed:multiqc a schema1:SoftwareApplication ;
     schema1:url "https://multiqc.info/" .
 
 debianmed:mummer a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044 ;
-    bioschemas:output edam:data_0863,
-        edam:data_2044,
-        edam:data_3498,
-        edam:operation_0292,
-        edam:topic_0182 ;
     schema1:additionalType edam:data_0863,
         edam:data_2044,
         edam:data_3498,
@@ -1960,10 +1887,6 @@ debianmed:mummer a schema1:SoftwareApplication ;
     schema1:url "https://mummer.sourceforge.net/" .
 
 debianmed:muscle a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044 ;
-    bioschemas:output edam:data_1916,
-        edam:operation_2928,
-        edam:topic_0083 ;
     schema1:additionalType edam:data_1916,
         edam:data_2044,
         edam:operation_2928,
@@ -2201,8 +2124,6 @@ debianmed:patman a schema1:SoftwareApplication ;
     schema1:url "https://bioinf.eva.mpg.de/patman/" .
 
 debianmed:pbsim a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044 ;
-    bioschemas:output edam:data_2044 ;
     schema1:additionalType edam:data_2044 ;
     schema1:applicationSubCategory edam:operation_2403,
         edam:topic_0080 ;
@@ -2277,9 +2198,6 @@ debianmed:phyml a schema1:SoftwareApplication ;
     schema1:url "http://www.atgc-montpellier.fr/phyml" .
 
 debianmed:picard-tools a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044 ;
-    bioschemas:output edam:data_2044,
-        edam:data_2048 ;
     schema1:additionalType edam:data_2044,
         edam:data_2048 ;
     schema1:applicationSubCategory edam:topic_0220,
@@ -2578,8 +2496,6 @@ debianmed:q2-sample-classifier a schema1:SoftwareApplication ;
     schema1:url "https://qiime2.org" .
 
 debianmed:qiime a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044 ;
-    bioschemas:output edam:data_2048 ;
     schema1:additionalType edam:data_2044,
         edam:data_2048 ;
     schema1:applicationSubCategory edam:topic_3697 ;
@@ -2758,10 +2674,6 @@ debianmed:reprof a schema1:SoftwareApplication ;
     schema1:url "https://rostlab.org/" .
 
 debianmed:rna-star a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_0848,
-        edam:data_3002,
-        edam:data_3497 ;
-    bioschemas:output edam:data_2048 ;
     schema1:additionalType edam:data_0848,
         edam:data_2048,
         edam:data_3002,
@@ -3172,11 +3084,6 @@ debianmed:snpeff a schema1:SoftwareApplication ;
     schema1:url "https://pcingola.github.io/SnpEff/" .
 
 debianmed:snpomatic a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044 ;
-    bioschemas:output edam:data_1255,
-        edam:data_1916,
-        edam:operation_2928,
-        edam:topic_0083 ;
     schema1:additionalType edam:data_1255,
         edam:data_1916,
         edam:data_2044,
@@ -3286,10 +3193,6 @@ debianmed:sparta a schema1:SoftwareApplication ;
     schema1:url "http://sparta.readthedocs.io/en/latest/" .
 
 debianmed:ssake a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2977 ;
-    bioschemas:output edam:data_0925,
-        edam:operation_0310,
-        edam:topic_0196 ;
     schema1:additionalType edam:data_0925,
         edam:data_2977,
         edam:operation_0310,
@@ -3552,9 +3455,6 @@ debianmed:trim-galore a schema1:SoftwareApplication ;
     schema1:url "https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/" .
 
 debianmed:trimmomatic a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044 ;
-    bioschemas:output edam:data_2044,
-        edam:data_2048 ;
     schema1:additionalType edam:data_2044,
         edam:data_2048 ;
     schema1:applicationSubCategory edam:topic_3168 ;
@@ -3592,8 +3492,6 @@ debianmed:trnascan-se a schema1:SoftwareApplication ;
     schema1:url "https://lowelab.ucsc.edu/tRNAscan-SE" .
 
 debianmed:uc-echo a schema1:SoftwareApplication ;
-    bioschemas:input edam:data_2044 ;
-    bioschemas:output edam:data_2044 ;
     schema1:additionalType edam:data_2044 ;
     schema1:applicationSubCategory edam:topic_3071,
         edam:topic_3168 ;
